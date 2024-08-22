@@ -1,3 +1,6 @@
+![서강대학교 산학 프로젝트 성과 포스터 pptx](https://github.com/user-attachments/assets/622fe7ed-1e9b-4293-ba93-7bb6b61c3e3d)
+
+
 ![79a4db7b684480f162cf5411037dc4a2-0](https://github.com/user-attachments/assets/035dc56c-3e27-473a-a2fc-040a9ebd1d96)
 ![79a4db7b684480f162cf5411037dc4a2-1](https://github.com/user-attachments/assets/2ea65d9c-e9e7-429e-9646-c2c84ba17e7b)
 ![79a4db7b684480f162cf5411037dc4a2-2](https://github.com/user-attachments/assets/e0179860-f440-462b-8ab2-36dc2b97cda1)
