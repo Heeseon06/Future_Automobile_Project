@@ -24,6 +24,27 @@ MS COCO만으로 사전학습된 모델과 탐지 성능을 비교했습니다.
 
 ---
 
+## 🧪 데이터셋 및 모델 선정
+
+### 데이터셋
+
+| Dataset | 클래스 수 | 이미지 수 | 용도 |
+| --- | --- | --- | --- |
+| MS COCO | 80 (motorbike - 43) | 121,408 | Train |
+| Open Images V7 | 1 (motorbike) | 1,805 | Train |
+| 주행 영상 추출 (YouTube) | 1 (motorbike) | 100 | Train |
+| Pascal VOC 2012 | 1 (motorbike) | 574 | Test |
+
+### 모델 선정 근거
+
+- **객체 탐지 모델**
+  - Jetson Nano와 같은 소형 싱글보드 컴퓨터에서 동작해야 하므로 경량 모델인 **YOLOv7-tiny**, **YOLOv5s**를 선정
+- **객체 추적 모델**
+  - MOT(Multi-Object Tracking) 모델 중 **MOT17 데이터셋 HOTA(Higher Order Tracking Accuracy) 기준 성능 랭킹 3위**이면서
+    API 사용이 용이한 **StrongSORT**를 선정
+
+---
+
 ## ⚙️ 주요 기능
 
 - **YOLOv7-tiny 기반 탐지 성능 개선**
@@ -85,6 +106,11 @@ MS COCO만으로 사전학습된 모델과 탐지 성능을 비교했습니다.
 YOLO 기반 객체 탐지와 StrongSORT 추적 시스템을
 Jetson Nano에서 실시간으로 구현하고,
 GPS 기반 위치 정보 연동 및 실제 주행 환경 검증까지 수행했습니다.
+
+**탐지 성능**
+
+- 커스텀 데이터셋 학습 모델: **mAP@0.5 0.901** (Pascal VOC 2012 오토바이 574장 테스트)
+- MS COCO 사전학습 모델 대비 오토바이 클래스 **AP 약 0.5%p 향상**
 
 ---
 
