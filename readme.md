@@ -87,8 +87,7 @@ GPS 기반 위치 정보 연동 및 실제 주행 환경 검증까지 수행했�
 
 ![프로젝트 성과 포스터](https://github.com/user-attachments/assets/622fe7ed-1e9b-4293-ba93-7bb6b61c3e3d)
 
-<details>
-<summary>발표 자료 보기</summary>
+### 발표 자료
 
 ![79a4db7b684480f162cf5411037dc4a2-0](https://github.com/user-attachments/assets/035dc56c-3e27-473a-a2fc-040a9ebd1d96)
 ![79a4db7b684480f162cf5411037dc4a2-1](https://github.com/user-attachments/assets/2ea65d9c-e9e7-429e-9646-c2c84ba17e7b)
@@ -115,5 +114,3 @@ GPS 기반 위치 정보 연동 및 실제 주행 환경 검증까지 수행했�
 ![79a4db7b684480f162cf5411037dc4a2-22](https://github.com/user-attachments/assets/aa0df31b-e835-4c05-882b-af412f7426ca)
 ![79a4db7b684480f162cf5411037dc4a2-23](https://github.com/user-attachments/assets/e21722a0-7f6c-4560-b3ff-b0d7a8a48c1b)
 ![79a4db7b684480f162cf5411037dc4a2-24](https://github.com/user-attachments/assets/caa9aa31-1b90-45a2-9e78-c71ba52851c7)
-
-</details>
